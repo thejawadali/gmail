@@ -10,7 +10,7 @@
   <title>Gmail</title>
 </head>
 
-<body>
+<body class="bg-gray-50 text-gray-500">
   <header
     class="flex border-b border-gray-200 items-center bg-white shadow-sm justify-between py-3 px-6 fixed top-0 left-0 right-0 z-50">
     <div class="header-left flex items-center">
@@ -35,6 +35,60 @@
 
     </div>
   </header>
+
+  <main class="flex relative top-16">
+    <!-- Side Nav -->
+    <nav class="col-start-1 col-end-3 fixed left-0  pt-2">
+      <button
+        class="bg-gray-50 border rounded-full ml-4 px-6 py-4 shadow-md hover:shadow-lg hover:bg-gray-100 flex justify-center items-center">
+        <p class="text-lg">+</p>
+        <p class="ml-5">Compose</p>
+      </button>
+      <div class="mt-6">
+        <a class="flex  items-center rounded-r-full bg-red-100 text-red-600 py-2 px-6" href="#">
+          <span class="material-icons">inbox</span>
+          <p class="text-sm ml-5">Inbox</p>
+        </a>
+        <a class="flex items-center rounded-r-full hover:bg-gray-200 py-2 px-6" href="#">
+          <span class="material-icons">star</span>
+          <p class="text-sm ml-5">Starred</p>
+        </a>
+        <a class="flex items-center rounded-r-full hover:bg-gray-200 py-2 px-6" href="#">
+          <span class="material-icons">schedule</span>
+          <p class="text-sm ml-5">Snoozed</p>
+        </a>
+        <a class="flex items-center rounded-r-full hover:bg-gray-200 py-2 px-6" href="#">
+          <span class="material-icons">label_important</span>
+          <p class="text-sm ml-5">Important</p>
+        </a>
+        <a class="flex items-center rounded-r-full hover:bg-gray-200 py-2 px-6" href="#">
+          <span class="material-icons">near_me</span>
+          <p class="text-sm ml-5">Sent</p>
+        </a>
+        <a class="flex items-center rounded-r-full hover:bg-gray-200 py-2 px-6" href="#">
+          <span class="material-icons">note</span>
+          <p class="text-sm ml-5">Drafts</p>
+        </a>
+        <a class="flex items-center rounded-r-full hover:bg-gray-200 py-2 px-6" href="#">
+          <span class="material-icons">expand_more</span>
+          <p class="text-sm ml-5">More</p>
+        </a>
+
+        <div class="flex ml-20">
+          <a class="flex items-center py-3 px-2" href="#"><span
+              class="material-icons focus:bg-gray-200 p-1 rounded-full">person</span></a>
+          <a class="flex items-center py-3 px-2" href="#"><span
+              class="material-icons focus:bg-gray-200 p-1 rounded-full">duo</span></a>
+          <a class="flex items-center py-3 px-2" href="#"><span
+              class="material-icons focus:bg-gray-200 p-1 rounded-full">phone</span></a>
+        </div>
+
+      </div>
+    </nav>
+    <!-- Side Nav Ends -->
+
+
+  </main>
 </body>
 
 </html>
