@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Gmail</title>
 </head>
+
 <body>
-  
+  <header
+    class="flex border-b border-gray-200 items-center bg-white shadow-sm justify-between py-3 px-6 fixed top-0 left-0 right-0 z-50">
+    <div class="header-left flex items-center">
+      <a href="#"><span class="mt-1 material-icons">menu</span></a>
+      <a class="flex ml-6 items-center" href="#">
+        <img class="w-10 h-10" src="https://img.icons8.com/color/48/000000/gmail-new.png" />
+        <p class="text-2xl ml-3 text-gray-500">Gmail</p>
+      </a>
+    </div>
+    <div
+      class="search group bg-gray-100 flex justify-start focus-within:bg-white focus-within:shadow-md rounded-md items-center py-2 px-4">
+      <span class="material-icons">search</span>
+      <input type="text" class="w-40 sm:w-56 md:w-96 mx-3 bg-gray-100 focus:outline-none focus:bg-white"
+        placeholder="Search mail">
+      <span class="material-icons hidden">tune</span>
+    </div>
+    <div class="header-right flex hidden lg:block">
+      <a class="mx-3 text-gray-500" href="#"><span class="material-icons">help_outline</span></a>
+      <a class="mx-3 text-gray-500" href="#"><span class="material-icons">settings</span></a>
+      <a class="mx-3 text-gray-500" href="#"><span class="material-icons">apps</span></a>
+      <a class="mx-3 text-gray-500" href="#"><span class="material-icons">account_circle</span></a>
+
+    </div>
+  </header>
 </body>
+
 </html>
