@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^3.2.3",
     "tailwindcss": "^2.2.2"
   }
 }
