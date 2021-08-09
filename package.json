@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d public",
     "build-css": "tailwindcss build src/style.css -o public/style.css"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "homepage": "https://thejawadali.github.io/gmail/",
   "dependencies": {
     "gh-pages": "^3.2.3",
     "tailwindcss": "^2.2.2"
