@@ -86,9 +86,58 @@
       </div>
     </nav>
     <!-- Side Nav Ends -->
+    <!-- Main Content starts here -->
+    <div class="ml-72 w-full">
+      <div class="ml-3 flex justify-between border-b border-gray-200 py-3 fixed left-64 right-0 z-10 bg-gray-50">
+        <div class="flex items-center">
+          <div class="pl-1 py-2 rounded-md hover:bg-gray-200 cursor-pointer">
+            <input class="w-4 h-4" type="checkbox">
+            <a class="" href="#"><span class="material-icons">arrow_drop_down</span></a>
+          </div>
+          <a class="mx-1 px-1 rounded-full pt-1 hover:bg-gray-200" href="#"><span
+              class="material-icons">refresh</span></a>
+          <a class="mx-1 px-1 rounded-full pt-1 hover:bg-gray-200" href="#"><span
+              class="material-icons">more_vert</span></a>
+        </div>
+        <div class="flex items-center">
+          <div class="text-xs cursor-pointer hover:bg-gray-200 px-2 p-2 rounded-sm">1-5 of 3,800</div>
+          <a class="mx-1 pt-1 text-gray-300 cursor-default" href="#"><span
+              class="material-icons">chevron_left</span></a>
+          <a class="mx-1 pt-1 px-1 rounded-full hover:bg-gray-200" href="#"><span
+              class="material-icons">chevron_right</span></a>
+        </div>
+      </div>
+
+      <div class=" relative top-24">
+
+        <div class="flex">
+          <a class="flex justify-start items-center text-red-600 py-3 w-48 pl-4 border-b-4 border-red-600 hover:bg-gray-200"
+            href="#">
+            <span class="material-icons">inbox</span>
+            <p class="text-sm ml-5">Primary</p>
+          </a>
+          <a class="flex justify-start items-center text-gray-600 py-3 w-48 pl-4 hover:bg-gray-200" href="#">
+            <span class="material-icons">people</span>
+            <p class="text-sm ml-5">Social</p>
+          </a>
+          <a class="flex justify-start items-center text-gray-600 py-3 w-48 pl-4 hover:bg-gray-200" href="#">
+            <span class="material-icons">sell</span>
+            <p class="text-sm ml-5">Promotions</p>
+          </a>
+        </div>
+
+        <!-- Msgs Starts here -->
+        <div id="msg-container" class="mt-4"></div>
+        <!-- Msgs ends here -->
+
+      </div>
+    </div>
+    <!-- Main Content Ends here -->
 
 
   </main>
+
+  <script src="./index.js"></script>
 </body>
 
 </html>
