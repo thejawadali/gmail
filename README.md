@@ -1,4 +1,4 @@
-# Youtube
+# Gmail
 Gmail layout clone made with tailwindcss and some vanilla javascript.
 
 ## Project setup
